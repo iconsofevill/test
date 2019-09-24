@@ -4,6 +4,6 @@ use App\Test;
 
 require '../vendor/autoload.php';
 
-echo 123;
+echo 12345;
 
 $obj = new Test();
