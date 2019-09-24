@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace App;
 
@@ -6,7 +6,7 @@ interface CalcInterface {
 
     //умножить
     public function multiply (float $a, float $b) : float;
-
+  
     //разделить
     public function divide (float $a, float $b) : float;
 
